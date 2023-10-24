@@ -4,9 +4,21 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Calculator</title>
+    <div class="header">
+        <img src="https://cdn-icons-png.flaticon.com/512/1176/1176289.png" alt="A calculator">
+        <h1> Calculator</h1>
+    </div>
 </head>
 <body>
-<h1>Calculator</h1>
+<section class="first-section">
+<div class="navigation">
+    <nav id="navbar">
+        <a href="#">link 1</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+    </nav>
+</div>
+</section>
 <!--
 <div class="min-to-sec-calculator">
     <label for="input">Input Minutes</label>
@@ -15,6 +27,7 @@
     <p id="output"> </p>
 </div>
 //-->
+<section class="second-section">
 <div class="calculator">
     <label for="select-calculator"></label>
     <select name="Calculator" id="select-calculator" required>
@@ -22,11 +35,12 @@
         <option value="Minutes to seconds">Minutes to seconds</option>
         <option value="Hours to seconds">Hours to seconds</option>
     </select>
-    <label for="input-calculator">Input a number</label>
+    <label for="input-calculator" id="label2">Input a number in the box</label>
     <input type="number" id="input-calculator" required>
     <input type="button" value="Submit" id="btn3">
     <p id="dropdown-output"></p>
 </div>
+</section>
 <script src="main.js"></script>
 </body>
 </html>
