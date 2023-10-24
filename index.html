@@ -3,30 +3,27 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
-    <title>Seconds Calculator</title>
+    <title>Calculator</title>
 </head>
 <body>
-<h1> Second Calculator </h1>
+<h1>Calculator</h1>
+<!--
 <div class="min-to-sec-calculator">
     <label for="input">Input Minutes</label>
     <input type="number" id="input">
     <input type="button" value="Submit" id="btn1">
     <p id="output"> </p>
 </div>
-<div class="hour-to-sec-calculator">
-    <label for="hour-input">Input Hours</label>
-    <input type="number" id="hour-input">
-    <input type="button" value="Submit" id="btn2">
-    <p id="hour-output"> </p>
-</div>
+//-->
 <div class="calculator">
     <label for="select-calculator"></label>
     <select name="Calculator" id="select-calculator" required>
+        <option disabled>Please select a option</option>
         <option value="Minutes to seconds">Minutes to seconds</option>
         <option value="Hours to seconds">Hours to seconds</option>
     </select>
     <label for="input-calculator">Input a number</label>
-    <input type="number" id="input-calculator">
+    <input type="number" id="input-calculator" required>
     <input type="button" value="Submit" id="btn3">
     <p id="dropdown-output"></p>
 </div>
