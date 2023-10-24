@@ -1,0 +1,74 @@
+/* Body style  */
+body {
+    background-color: lightgrey;
+}
+/* End */
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: left;
+    background-color: transparent;
+}
+
+.header h1 {
+    font-size: 200%;
+    font-weight: bolder;
+    font-family: "Calibri Light";
+    padding-left: 40px;
+
+}
+
+.header img {
+    width: 80px;
+}
+
+/* End */
+
+/* First section */
+
+/* End */
+
+/* Second section */
+.second-section {
+    display: flex;
+    justify-content: center;
+}
+.calculator {
+    margin-top: 20px;
+}
+
+#select-calculator {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    width: 150%;
+    font-size: inherit;
+}
+
+
+#label2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    margin-left: 96px;
+    font-size: 130%;
+}
+
+#input-calculator {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    width: 80%;
+}
+
+#btn3 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 170px;
+}
+
+/* End */
