@@ -1,4 +1,4 @@
-/* Body style  */
+/* Body  */
 body {
     background-color: lightgrey;
 }
@@ -25,7 +25,30 @@ body {
 /* End */
 
 /* First section */
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px;
+}
 
+.topnav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease 0s;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    color: lightsteelblue;
+}
 /* End */
 
 /* Second section */
