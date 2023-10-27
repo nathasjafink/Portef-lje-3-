@@ -1,4 +1,7 @@
 /* Body  */
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: lightgrey;
     font-family: "Calibri Light";
@@ -28,8 +31,12 @@ body {
 .topnav {
     display: flex;
     justify-content: flex-end;
+    position: fixed;
     align-items: center;
     padding: 20px 50px;
+    width: 90%;
+    top: 5%;
+
 }
 
 .topnav li {
