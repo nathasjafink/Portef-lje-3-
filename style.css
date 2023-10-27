@@ -95,6 +95,7 @@ body {
 
 #btn3 {
     margin-left: 46%;
+    width: 5em;
 }
 
 #dropdown-output {
@@ -143,6 +144,7 @@ body {
 
 #btn4 {
     margin-left: 46%;
+    width: 5em;
 }
 
 #c-f-output {
@@ -152,5 +154,30 @@ body {
     border: .2em solid black;
     border-radius: 25px;
     padding: 25px;
+}
+/* End */
+
+/* Responsive */
+@media screen and (max-width: 500px) {
+    .topnav {
+        margin-top: 1em;
+        position: absolute;
+    }
+
+    .second-section {
+        margin-top: 2em;
+    }
+
+    #select-calculator {
+        margin-left: 25%;
+    }
+
+    #input-calculator {
+        margin-left: 35%;
+    }
+
+    #dropdown-output {
+        margin-left: 28%;
+    }
 }
 /* End */
